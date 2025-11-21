@@ -14,4 +14,7 @@ phases:
 artifacts:
   files:
     - '**/*'
+    - buildspec.yml         # Include buildspec.yml at root
+    - appspec.yml           # Include appspec.yml at root
+    - scripts/**            # Include all scripts inside scripts/
   base-directory: build
